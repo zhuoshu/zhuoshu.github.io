@@ -6,7 +6,7 @@ subtitle: 📬 zhengqi97@tongji.edu.cn / 📬 zq12756@126.com
 
 profile:
   align: right
-  image: qi_avatar.jpg
+  image: qi_avatar_new.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Tongji University</p>
