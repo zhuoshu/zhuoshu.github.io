@@ -1,0 +1,122 @@
+{
+  "基本信息": {
+    "姓名": "郑启",
+    "学校": "同济大学",
+    "学历":"博士研究生（预计2026年8月毕业）",
+    "image": "",
+    "邮箱": "zhengqi97@tongji.edu.cn",
+    "手机/微信": "(+86)15300859602",
+    "url": "https://zhuoshu.github.io/",
+    "summary": "",
+    "location": {
+      "address": "Caoan Highway NO.4800",
+      "postalCode": "201804",
+      "city": "Shanghai",
+      "countryCode": "CN",
+      "region": "Shanghai"
+    }
+  },
+  
+  "教育经历": [
+    {
+      "institution": "同济大学",
+      "location": "中国，上海",
+      "url": "https://www.tongji.cn/",
+      "area": "嵌入式系统与服务计算教育部重点实验室",
+      "courses": ["Spatial-Temporal Data Science"],
+      "studyType": "PhD",
+      "startDate": "2022-09-01",
+      "endDate": "now"
+    },
+    {
+      "institution": "Tongji University",
+      "location": "Shanghai, China",
+      "url": "https://www.tongji.cn/",
+      "area": "The Key Laboratory of Embedded System and Service Computing, Ministry of Education",
+      "courses": ["Spatial-Temporal Data Science"],
+      "studyType": "Master",
+      "startDate": "2019-09-01",
+      "endDate": "2022-09-01"
+    },
+    {
+      "institution": "Tongji University",
+      "location": "Shanghai, China",
+      "url": "https://www.tongji.cn/",
+      "area": "Department of Computer Science and Technology",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-01",
+      "endDate": "2019-09-01"
+    }
+  ],
+
+  "publications": [
+    {
+      "name": "DSTAGCN: Dynamic Spatial-Temporal Adjacent Graph Convolutional Network for Traffic Forecasting",
+      "publisher": "IEEE Transactions on Big Data, 2023",
+      "releaseDate": "2023",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9729487",
+      "summary": "Main line: #Spatial–temporal structure modeling and #efficiency optimization. Addressed the challenge of dynamic and uncertain spatial dependencies in traffic forecasting. Proposed **a fuzzy-neural dynamic adjacency generator** to construct cross-time graphs and capture evolving spatial-temporal relations using a single GCN layer. Compared with the SOTA method at publication time (STSGCN), DSTAGCN achieved 12% lower MAE and 13% lower RMSE, while requiring only ≈40% of its training time. Contribution: Introduced uncertainty-aware, time-varying adjacency learning, realizing both higher predictive accuracy and training efficiency."
+    },
+    {
+      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1905-03-18",
+      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
+      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+    },
+    {
+      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1916-03-20",
+      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
+      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinense",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "CET-6",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Deep Learning",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Self-supervised learning",
+        "High efficiency"
+      ]
+    },
+    {
+      "name": "Spatial-Temporal Data Mining",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Expanding-node forecasting",
+        "OOD generalization",
+        "Traffic Forecasting"
+      ]
+    },
+    {
+      "name": "Time Series Modeling",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Multivariate Time Series forecasting"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    }
+  ]
+}
