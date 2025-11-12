@@ -58,7 +58,7 @@
 与发表时期的SOTA模型STAEformer对比，**TLAST取得MAE降低2.8%，GPU占用/训练时间减少79.16%与59.66%**。实现了高精度与高效率兼顾的时空预测。"
 
   - title: "ST-ReP: Learning Predictive Representations Efficiently for Spatial-Temporal Forecasting"
-    year: 2025.1
+    year: 2025.4
     maindescription: Proceedings of the AAAI Conference on Artificial Intelligence, 2025. (AAAI, CCF-A类会议)
     description: "针对时空数据的表示学习问题，提出基于“重建-预测”的自监督预训练框架，提出了“压缩-提取-解压缩”的时空编码结构，通过时空掩码与重建任务学习通用时空表征。
 与发表时期的 SOTA 自监督方法（GPT-ST）相比，**ST-ReP取得MAE降低至多20.24%，GPU占用/训练时间减少67.22%/28.07%**。为构建通用时空基础模型提供了表征层与训练范式的基础。"
@@ -71,7 +71,7 @@
 与同期SOTA模型ASTGNN对比，**TAGnn取得MAE降低至多9.27%，训练耗时减少89.84%**。将显式时间先验与跨时间卷积相结合，实现了可解释、轻量且高精度的时空预测框架。"
 
   - title: "DSTAGCN: Dynamic Spatial-Temporal Adjacent Graph Convolutional Network for Traffic Forecasting"
-    year: 2023.1
+    year: 2022.3
     maindescription: IEEE Transactions on Big Data, 2023. (TBD, IEEE Transcactions 期刊)
     description: "针对交通预测中空间依赖动态变化与不确定性的难题，提出基于模糊神经网络的动态邻接生成模块，在跨时间片上构建动态图结构，仅用单层GCN即可捕获长时依赖。
 与发表时期的SOTA方法STSGCN对比，**DSTAGCN取得MAE降低8.71%，训练速度提高50.47%**。引入不确定性感知的动态图邻接学习，实现时空依赖的自适应建模与高效预测。"
@@ -89,9 +89,9 @@
 - title: 获奖经历
   type: list
   contents: 
-  - 同济大学优秀博士奖学金，2025
+  - 同济大学优秀博士生奖学金，2025
   - 同济大学2022年优秀硕⼠学位论⽂，2023
   - 第二届IKCEST“一带一路”国际大数据竞赛，国际二等奖，排名5/3023， 2020.9
-  - 中国大学生计算机设计大赛二等奖，2017
+  - 中国大学生计算机设计大赛三等奖，2017
   - 同济大学优秀学生奖学金，2016-2019，多次
   
