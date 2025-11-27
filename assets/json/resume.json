@@ -51,7 +51,7 @@
     {
       "name": "DSTAGCN: Dynamic Spatial-Temporal Adjacent Graph Convolutional Network for Traffic Forecasting",
       "publisher": "IEEE Transactions on Big Data, 2023",
-      "releaseDate": "2023",
+      "releaseDate": "2022",
       "url": "https://ieeexplore.ieee.org/abstract/document/9729487",
       "summary": "Addressed the challenge of dynamic and uncertain spatial dependencies in traffic forecasting. Proposed a fuzzy-neural dynamic adjacency generator to construct cross-time graphs and capture evolving spatial-temporal relations using a single GCN layer. Compared with the SOTA method at publication time (STSGCN), DSTAGCN achieved **8.71% lower MAE and 50.47% lower training time**. *Contribution: Introduced uncertainty-aware, time-varying adjacency learning, realizing both higher predictive accuracy and training efficiency.*"
     },
@@ -185,7 +185,7 @@
       "summary": "Ranking No. 5/3023"
     },
     {
-      "title": "Second Prize, China Collegiate Computer Design Competition",
+      "title": "Third Prize, China Collegiate Computer Design Competition",
       "date": "2017",
       "awarder": "China Collegiate Computer Design Competition",
       "summary": "National-level student competition award"
