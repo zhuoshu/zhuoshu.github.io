@@ -76,14 +76,8 @@
       "releaseDate": "2025",
       "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33465",
       "summary": "Addressed the lack of cross-domain transferability in supervised spatio-temporal forecasting. Designed a self-supervised pretraining framework combining temporal masking and a efficient spatial-temporal encoder. Compared with concurrent SOTA supervised baselines (GPT-ST), ST-ReP achieved achieved **20.24% lower MAE, 67.22% lower GPU usage and 28.07% lower training time**. *Contribution*: Pioneered self-supervised spatio-temporal representation pretraining, bridging efficient forecasting and future foundation-model paradigms.*"
-    },
-    {
-      "name": "Towards Expanding-Node Spatial-Temporal Forecasting: A Structured Node Interaction Prompting Perspective",
-      "publisher": "Under review at ICLR 2026",
-      "releaseDate": "under review",
-      "url": "https://openreview.net/forum?id=z45L1eYoHE",
-      "summary": "Targeted the challenge of node expansion and parameter–node coupling in evolving sensor networks. Proposed Structured Node Interaction Prompting (SNIP), combining three kinds of priors with Diffusion-GCN refinement and similarity-based few-shot initialization. Compared with the SOTA model in expanding-node forecasting (STEV, KDD 2025), SNIP achieved **3.71% lower MAE, 92.50% lower GPU usage and 91.32% lower training time**. *Contribution: Established the first parameter–node decoupled forecasting framework, enabling scalable prediction under dynamic node addition or removal.*"
     }
+
 
 
   ],
@@ -160,9 +154,9 @@
   "volunteer": [
     {
       "position": "Reviewer & Program committees",
-      "startDate": "2025",
+      "startDate": "2025-2026",
       "summary": "",
-      "highlights": ["AAAI","TKDD","TCE","IoT","SMC"]
+      "highlights": ["ICML","AAAI","TKDD","TITS","TCE","IoT","SMC"]
     }
   ],
   "awards": [

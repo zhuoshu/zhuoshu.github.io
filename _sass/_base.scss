@@ -1424,3 +1424,13 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.visitor-map {
+  max-width: 300px;
+  margin: 0.75rem auto 0;
+}
+
+#clustrmaps-widget {
+  width: 100%;
+  overflow: hidden;
+}
