@@ -43,14 +43,6 @@
   type: publications
   contents: 
 
-  - title: "Towards Expanding-Node Spatial-Temporal Forecasting: A Structured Node Interaction Prompting Perspective"
-    year: Under review
-    maindescription: Submitted to KDD 2026. (KDD, 国际顶级会议)
-    description: "针对时空预测在节点动态扩展（新增/移除）场景下，模型参数与节点数量强耦合、难以迁移的问题，提出 Structured Node Interaction Prompting (SNIP) 框架。
-方法融合三类结构化先验，并通过Diffusion GCN动态细化与相似性加权初始化实现新节点少样本自适应。
-与同期SOTA模型STEV对比，**SNIPformer取得MAE降低达到3.71%，GPU占用/训练时间减少92.5%与91.32%**。实现了参数–节点完全解耦的时空预测框架，支持节点增删下的高效可扩展预测。"
-
-
   - title: "TLAST: A Time-Lag Aware Spatial-Temporal Transformer for Traffic Flow Forecasting"
     year: 2025.7
     maindescription: IEEE Transactions on Intelligent Transportation Systems, 2025. (TITS, IEEE Transcactions，TOP期刊)
