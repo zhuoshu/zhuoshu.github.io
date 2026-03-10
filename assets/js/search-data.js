@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Click the button on the right to get the PDF version. (updated in Nov. 3rd 2025)",
+          description: "Click the button on the right to get the PDF version. (updated in Mar. 2026)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-中文简历",
           title: "中文简历",
-          description: "可以点击右边按钮获取PDF版本。（2025年11月3日更新）",
+          description: "可以点击右边按钮获取PDF版本。（2026年3月10日更新）",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv_zh/";
