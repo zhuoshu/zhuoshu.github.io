@@ -1,25 +1,21 @@
 ---
 ---
-
-
-@inproceedings{DRS-Mamba,
-author = {Yao, Zihao and Zheng, Qi and Zhang, Yaying},
-title = {Correlation-Aware Reordered Scanning Mamba for&nbsp;Multivariate Time Series Forecasting},
-year = {2026},
-isbn = {978-981-95-3829-4},
-publisher = {Springer-Verlag},
-address = {Berlin, Heidelberg},
-url = {https://doi.org/10.1007/978-981-95-3830-0_29},
-doi = {10.1007/978-981-95-3830-0_29},
-abstract = {The fundamental challenge in Multivariate Time Series forecasting is effectively modeling complex temporal dependencies and variable correlation. Transformer-based models achieve breakthroughs but face challenges with quadratic complexity and permutation invariant bias. A recent model, Mamba, has emerged as a competitive alternative. However, we observe that the issue of scan order sensitivity is not well concerned. In this study, we propose a novel Correlation-aware Reordered Scanning Mamba, namely CRS-Mamba, for multivariate time series forecasting. Specifically, we leverage the downsampling technique to model temporal dependencies. Then, a bidirectional Mamba layer is introduced to extract inter-variate correlations. Moreover, we propose Dimensionality Reduction Scan Algorithm to alleviate scanning sensitivity problem of Mamba. Extensive evaluations show that our approach secures superior performance in prediction accuracy on various datasets. Moreover, ablation studies demonstrate the interpretability of CRS-Mamba.},
-booktitle = {Database Systems for Advanced Applications: 30th International Conference, DASFAA 2025, Singapore, Singapore, May 26–29, 2025, Proceedings, Part II},
-pages = {425–435},
-numpages = {11},
-keywords = {Multivariate Time Series, Forecasting, Mamba},
-location = {Singapore, Singapore},
-  abbr={[DASFAA'25] DRS-Mamba},
-  bibtex_show={true},
+@article{GPS-Mamba_2026,
+	title = {GPS-Mamba: Graph permutation scanning state space model for multivariate time series forecasting},
+	journal = {Expert Systems with Applications},
+	volume = {311},
+	pages = {131373},
+	year = {2026},
+	issn = {0957-4174},
+	doi = {https://doi.org/10.1016/j.eswa.2026.131373},
+	url = {https://www.sciencedirect.com/science/article/pii/S0957417426002861},
+	author = {Yao, Zihao and Zheng, Qi and Zuo, Jiankai and Zhang*, Yaying},
+	keywords = {Multivariate correlation, Time series forecasting, State space model},
+	abstract = {Modeling complex correlations between variables in multivariate time series forecasting is an increasingly recognized challenge. Transformer-based models have shown leading performance, but encounter obstacles of weak inductive bias and quadratic computational complexity. Recently emerged State Space Models, such as Mamba, offer comparable performance to Transformer with higher efficiency. Nevertheless, existing methods still face three key challenges. First, most models lack comprehension of graph positional inductive bias. Secondly, the coexistence of valuable information and noise hinders correlation extraction. Furthermore, representative invariant patterns in multivariate time series are overlooked in dynamic modeling. To address these issues, we present a novel Mamba framework called GPS-Mamba to effectively model multivariate correlations. Specifically, we propose the Laplace Scanning algorithm that introduces graph structure information and multivariate correlations into permutation to enhance positional inductive bias. Based on the algorithm, we utilize Mamba-based encoder to model long-term stable correlations and short-term dynamic variation with devised retrieval mechanism, respectively. Finally, we combine the features obtained from two perspectives to achieve more precise prediction. Experimental results on seven real-world datasets demonstrate the superiority of GPS-Mamba over SOTA baselines with high interpretability. The codes are available at https://github.com/yzh8221/GPS-Mamba.},
+	bibtex_show={true},
+	abbr={[ESWA'26] GPS-Mamba}
 }
+
 
 @article{TLAST,
   author={Zheng, Qi and Shao, Minhua and Zhang*, Yaying},
@@ -140,13 +136,22 @@ location = {Singapore, Singapore},
 }
 
 
-@inproceedings{CRSmamba,
-  author = {Yao, Zihao and Zheng, Qi and Zhang*, Yaying},
-  title = {Correlation-Aware Reordered Scanning Mamba for Multivariate Time Series Forecasting},
-  year = {2025},
-  html = {https://dasfaa2025.github.io/paper/research/research_617_paper.pdf},
-  booktitle = {Database Systems for Advanced Applications: 30th International Conference, DASFAA 2025},
-  pages = {},
+
+@inproceedings{CRS-Mamba,
+author = {Yao, Zihao and Zheng, Qi and Zhang, Yaying},
+title = {Correlation-Aware Reordered Scanning Mamba for&nbsp;Multivariate Time Series Forecasting},
+year = {2025},
+isbn = {978-981-95-3829-4},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-981-95-3830-0_29},
+doi = {10.1007/978-981-95-3830-0_29},
+abstract = {The fundamental challenge in Multivariate Time Series forecasting is effectively modeling complex temporal dependencies and variable correlation. Transformer-based models achieve breakthroughs but face challenges with quadratic complexity and permutation invariant bias. A recent model, Mamba, has emerged as a competitive alternative. However, we observe that the issue of scan order sensitivity is not well concerned. In this study, we propose a novel Correlation-aware Reordered Scanning Mamba, namely CRS-Mamba, for multivariate time series forecasting. Specifically, we leverage the downsampling technique to model temporal dependencies. Then, a bidirectional Mamba layer is introduced to extract inter-variate correlations. Moreover, we propose Dimensionality Reduction Scan Algorithm to alleviate scanning sensitivity problem of Mamba. Extensive evaluations show that our approach secures superior performance in prediction accuracy on various datasets. Moreover, ablation studies demonstrate the interpretability of CRS-Mamba.},
+booktitle = {Database Systems for Advanced Applications: 30th International Conference, DASFAA 2025, Singapore, Singapore, May 26–29, 2025, Proceedings, Part II},
+pages = {425–435},
+numpages = {11},
+keywords = {Multivariate Time Series, Forecasting, Mamba},
+location = {Singapore, Singapore},
   abbr={[DASFAA'25] CRS-Mamba},
-  pdf={郑启_TAGnn.pdf}
+  bibtex_show={true},
 }

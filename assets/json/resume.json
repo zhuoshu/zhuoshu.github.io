@@ -53,7 +53,7 @@
       "publisher": "IEEE Transactions on Big Data, 2023",
       "releaseDate": "2022",
       "url": "https://ieeexplore.ieee.org/abstract/document/9729487",
-      "summary": "Addressed the challenge of dynamic and uncertain spatial dependencies in traffic forecasting. Proposed a fuzzy-neural dynamic adjacency generator to construct cross-time graphs and capture evolving spatial-temporal relations using a single GCN layer. Compared with the SOTA method at publication time (STSGCN), DSTAGCN achieved **8.71% lower MAE and 50.47% lower training time**. *Contribution: Introduced uncertainty-aware, time-varying adjacency learning, realizing both higher predictive accuracy and training efficiency.*"
+      "summary": "Addressed the challenge of dynamic and uncertain spatial dependencies in traffic forecasting. Proposed a fuzzy-neural dynamic adjacency generator to construct cross-time graphs and capture evolving spatial-temporal relations using a single GCN layer. Compared with the SOTA method at publication time (STSGCN), **DSTAGCN achieved 8.71% lower MAE and 50.47% lower training time**. *Contribution: Introduced uncertainty-aware, time-varying adjacency learning, realizing both higher predictive accuracy and training efficiency.*"
     },
 
     {
@@ -61,21 +61,35 @@
       "publisher": "Database Systems for Advanced Applications: 28th International Conference, DASFAA 2023",
       "releaseDate": "2023",
       "url": "https://link.springer.com/chapter/10.1007/978-3-031-30637-2_24",
-      "summary": "Tackled the limitation that prior GNN-based models neglect explicit temporal priors and cross-time spatial correlations. Proposed a time-encoding module and a time-adjoint graph convolution capturing multi-scale temporal-spatial semantics with a concise architecture. Compared with the SOTA model at that time (ASTGNN), TAGnn achieved **9.27% lower MAE and 89.84% lower training time**. *Contribution: Demonstrated that explicit temporal priors and cross-time adjacency enable interpretable, lightweight, and accurate forecasting.*"
+      "summary": "Tackled the limitation that prior GNN-based models neglect explicit temporal priors and cross-time spatial correlations. Proposed a time-encoding module and a time-adjoint graph convolution capturing multi-scale temporal-spatial semantics with a concise architecture. Compared with the SOTA model at that time (ASTGNN), **TAGnn achieved 9.27% lower MAE and 89.84% lower training time**. *Contribution: Demonstrated that explicit temporal priors and cross-time adjacency enable interpretable, lightweight, and accurate forecasting.*"
     },
     {
       "name": "TLAST: A Time-Lag Aware Spatial-Temporal Transformer for Traffic Flow Forecasting",
       "publisher": "IEEE Transactions on Intelligent Transportation Systems, 2025",
       "releaseDate": "2025",
       "url": "https://ieeexplore.ieee.org/document/11077815",
-      "summary": "Solved the inefficiency of Transformers and the neglect of propagation time-lag among sensors. Introduced Time-Lag Embedding and Spatial Proxy Attention (SPA) to capture asynchronous correlations with O(N) complexity. Compared with the SOTA model at publication time (STAEformer), TLAST achieved **2.81% lower MAE, 92.50% lower GPU usage and 91.32% lower training time**. *Contribution: Established a scalable Transformer paradigm that unifies lag-aware modeling with linear complexity.*"
+      "summary": "Solved the inefficiency of Transformers and the neglect of propagation time-lag among sensors. Introduced Time-Lag Embedding and Spatial Proxy Attention (SPA) to capture asynchronous correlations with O(N) complexity. Compared with the SOTA model at publication time (STAEformer), **TLAST achieved 2.81% lower MAE, 92.50% lower GPU usage and 91.32% lower training time**. *Contribution: Established a scalable Transformer paradigm that unifies lag-aware modeling with linear complexity.*"
     },
     {
       "name": "ST-ReP: Learning Predictive Representations Efficiently for Spatial-Temporal Forecasting",
       "publisher": "Proceedings of the AAAI Conference on Artificial Intelligence, AAAI 2025",
       "releaseDate": "2025",
       "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33465",
-      "summary": "Addressed the lack of cross-domain transferability in supervised spatio-temporal forecasting. Designed a self-supervised pretraining framework combining temporal masking and a efficient spatial-temporal encoder. Compared with concurrent SOTA supervised baselines (GPT-ST), ST-ReP achieved achieved **20.24% lower MAE, 67.22% lower GPU usage and 28.07% lower training time**. *Contribution*: Pioneered self-supervised spatio-temporal representation pretraining, bridging efficient forecasting and future foundation-model paradigms.*"
+      "summary": "Addressed the lack of cross-domain transferability in supervised spatio-temporal forecasting. Designed a self-supervised pretraining framework combining temporal masking and a efficient spatial-temporal encoder. Compared with concurrent SOTA supervised baselines (GPT-ST), **ST-ReP achieved 20.24% lower MAE, 67.22% lower GPU usage and 28.07% lower training time**. *Contribution: Pioneered self-supervised spatio-temporal representation pretraining, bridging efficient forecasting and future foundation-model paradigms.*"
+    },
+    {
+      "name": "Structured Node Interaction Prompting for Expanding-Variate Spatial-Temporal Forecasting",
+      "publisher": "Under review",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Addressed forecasting with changing node sets in evolving spatial-temporal networks. Designed a structure-prior-driven framework that integrates periodic-sequence PCA, topological spectral embeddings, time-lag interaction priors, cross-time evolution modeling, and graph propagation. Compared with the concurrent SOTA baseline STEV (KDD 2025), **SNIP achieved higher accuracy while reducing GPU usage and training time by up to 92.5% and 91.32%, respectively**. *Contribution: Introduced a scalable structure-prior paradigm for expanding-variate spatial-temporal forecasting.*"
+    },
+    {
+      "name": "Stable Anchors and Fast Adaptation for Streaming Spatial-Temporal Forecasting on Evolving Networks",
+      "publisher": "Under review",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Addressed streaming spatial-temporal forecasting under simultaneous node growth, distribution drift, and delayed supervision. Designed a continual forecasting framework that combines stable anchor features, residual-based lightweight adaptation, and backbone-freezing online updates. Compared with concurrent SOTA baselines such as ST-TTC (NeurIPS 2025), **SAFA achieved better stability and sustainability in both streaming and node-expansion settings with lower update cost**. *Contribution: Established an effective framework for continual spatial-temporal forecasting in open evolving environments.*"
     }
 
 
@@ -142,13 +156,13 @@
       "name": "University-level Interdisciplinary Project (Digital Economy Frontier): Organizational Learning Mechanisms Integrating Foundation Models and Machine Learning",
       "startDate": "2025",
       "endDate":"2026",
-      "summary": "Student lead; responsible for FM/ML integration research"
+      "summary": "Student lead; responsible for FM/ML integration research."
     },
     {
-      "name": "NSFC Project: Organizational Learning and Innovation Ecosystems Enabled by Foundation Models",
+      "name": "NSFC Project: Organizational Learning and Innovation Ecosystems Enabled by Foundation Models (RMB 2 Million)",
       "startDate": "2024",
       "endDate":"2027",
-      "summary": "Student key member focusing on foundation models and machine learning. NSFC is for National Natural Science Foundation of China."
+      "summary": "Student key member focusing on foundation models and machine learning. NSFC is for National Natural Science Foundation of China. This project is a pioneering 0-to-1 effort in the field and establishes a new research paradigm."
     }
   ],
   "volunteer": [
@@ -156,7 +170,7 @@
       "position": "Reviewer & Program committees",
       "startDate": "2025-2026",
       "summary": "",
-      "highlights": ["ICML","AAAI","TKDD","TITS","TCE","IoT","SMC"]
+      "highlights": ["ICML","AAAI","TKDE","TKDD","TITS","TCE","IoT","SMC"]
     }
   ],
   "awards": [

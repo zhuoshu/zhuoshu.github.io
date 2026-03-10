@@ -39,10 +39,22 @@
         - 计算机科学与技术专业
         - GPA排名：前10% 
 
-- title: 主要科研成果
+- title: 主要科研成果/项目经历
   type: publications
   contents: 
 
+
+
+  - title: "Stable Anchors and Fast Adaptation for Streaming Spatial-Temporal Forecasting on Evolving Networks"
+    year: 2026
+    maindescription: ICML 2026 投稿中
+    description: "针对节点增长、分布漂移与监督延迟并存的流式时空预测问题，提出稳定锚特征与轻量适配结合的持续预测框架 SAFA。 该方法通过稳定统计特征驱动的节点锚表征维持身份表达一致性，并结合基于残差修正的轻量快速适配模块和主体冻结的小参数在线更新策略，实现了对新节点与分布漂移的统一适配。相比相关SOTA（ST-TTC，NIPS 2025）方法，**SAFA 在保持较低更新成本的同时提升了流式与节点扩展场景下的稳定性与可持续性**，为开放环境中的可持续时空预测提供了有效方法。"
+  
+  - title: "Structured Node Interaction Prompting for Expanding-Variate Spatial-Temporal Forecasting"
+    year: 2026
+    maindescription: SIGKDD 2026 投稿中
+    description: "针对演化时空网络中节点集合变化带来的预测问题，提出结构化先验驱动的扩展节点预测框架 SNIP。 该方法利用周期序列 PCA、拓扑谱嵌入和时滞交互等结构先验，结合跨时间演化建模与图结构传播机制，实现结构化先验的时空依赖建模，提升了新节点冷启动条件下的预测精度与结构一致性。与同期SOTA方法（STEV，KDD 2025）相比, **SNIP取得精度提升的同时，GPU占用/训练时间减少至多92.5%与91.32%**，为可扩展的演化时空网络预测提供了新的建模思路。"
+ 
   - title: "TLAST: A Time-Lag Aware Spatial-Temporal Transformer for Traffic Flow Forecasting"
     year: 2025.7
     maindescription: IEEE Transactions on Intelligent Transportation Systems, 2025. (TITS, IEEE Transcactions，TOP期刊)
@@ -52,8 +64,15 @@
   - title: "ST-ReP: Learning Predictive Representations Efficiently for Spatial-Temporal Forecasting"
     year: 2025.4
     maindescription: Proceedings of the AAAI Conference on Artificial Intelligence, 2025. (AAAI, CCF-A类会议)
-    description: "针对时空数据的表示学习问题，提出基于“重建-预测”的自监督预训练框架，提出了“压缩-提取-解压缩”的时空编码结构，通过时空掩码与重建任务学习通用时空表征。
+    description: "针对时空数据的表示学习问题，提出基于“重建-预测”的自监督预训练框架，将当前值重构与未来值预测统一到同一预训练目标中，并引入多尺度时间约束，提出“时间压缩-空间提取-时间解压”线性复杂度编码结构，学习具有语义紧凑性与预测性的时空表示，在轻量下游模型和云边协同推理提供可迁移表示。
 与发表时期的 SOTA 自监督方法（GPT-ST）相比，**ST-ReP取得MAE降低至多20.24%，GPU占用/训练时间减少67.22%/28.07%**。为构建通用时空基础模型提供了表征层与训练范式的基础。"
+
+  - title: "国自然基金项目：大模型融通的组织学习与创新生态系统研究(200万)"
+    year: 2024-2027
+    maindescription: 作为学生骨干（大模型与机器学习方向）
+    description: "- 该项目是该领域从0到1的开创性工作，建立了研究新范式。本人负责大模型与机器学习方向，围绕创新生态识别、知识组织与政策生成，参与构建垂直领域智能分析方案（图学习、领域大模型），推动复杂领域从少量结构化变量分析向大规模数据驱动建模迁移。\n-	参与数据处理、图学习社区发现、图聚类、继续预训练、LoRA 微调、RAG 检索增强等完整流程，具备从数据构建、模型微调到应用验证的实践经验。已通过中期验收（优）。
+\n-	本人具备将图结构建模+检索增强+生成式分析结合到专业领域任务中的经验。具备垂直领域大模型数据建设、任务定义与落地验证能力。具备在不同领域下的快速学习和实践能力。
+"
 
 
   - title: "TAGnn: Time Adjoint Graph Neural Network for Traffic Forecasting"
@@ -72,12 +91,14 @@
 - title: 科研/项目经历
   type: list
   contents: 
-  - 审稿人：ICML, AAAI, TKDD, TITS, IoT, TCE, SMC。2025-2026。
+  - 审稿人：ICML, AAAI, TKDE, TKDD, TITS, IoT, TCE, SMC。2025-2026。
   - 毕业设计：复杂场景下高效可扩展的时空序列建模方法研究。2026。
   - 实验室长期科研项目：时空数据分析与预测。长期。核心技术骨干。
   - 校级学科交叉项目（数字经济前沿综合交叉）：大模型和机器学习融合的组织学习机制研究。2025-2026。学生骨干。
   - 国自然基金项目。大模型融通的组织学习与创新生态系统研究。2024-2027。学生骨干（大模型与机器学习方向）。
+
   
+
 - title: 获奖经历
   type: list
   contents: 
