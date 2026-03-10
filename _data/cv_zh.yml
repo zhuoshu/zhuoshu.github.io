@@ -83,7 +83,7 @@
 
   - title: "DSTAGCN: Dynamic Spatial-Temporal Adjacent Graph Convolutional Network for Traffic Forecasting"
     year: 2022.3
-    maindescription: IEEE Transactions on Big Data, 2023. (TBD, IEEE Transcactions 期刊)
+    maindescription: IEEE Transactions on Big Data, 2022. (TBD, IEEE Transcactions 期刊)
     description: "针对交通预测中空间依赖动态变化与不确定性的难题，提出基于模糊神经网络的动态邻接生成模块，在跨时间片上构建动态图结构，仅用单层GCN即可捕获长时依赖。
 与发表时期的SOTA方法STSGCN对比，**DSTAGCN取得MAE降低8.71%，训练速度提高50.47%**。引入不确定性感知的动态图邻接学习，实现时空依赖的自适应建模与高效预测。"
 
