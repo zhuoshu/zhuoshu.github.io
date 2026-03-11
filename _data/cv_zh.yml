@@ -47,12 +47,12 @@
 
   - title: "Stable Anchors and Fast Adaptation for Streaming Spatial-Temporal Forecasting on Evolving Networks"
     year: 2026
-    maindescription: ICML 2026 投稿中
+    maindescription: CCF-A类 投稿中
     description: "针对节点增长、分布漂移与监督延迟并存的流式时空预测问题，提出稳定锚特征与轻量适配结合的持续预测框架 SAFA。 该方法通过稳定统计特征驱动的节点锚表征维持身份表达一致性，并结合基于残差修正的轻量快速适配模块和主体冻结的小参数在线更新策略，实现了对新节点与分布漂移的统一适配。相比相关SOTA（ST-TTC，NIPS 2025）方法，**SAFA 在保持较低更新成本的同时提升了流式与节点扩展场景下的稳定性与可持续性**，为开放环境中的可持续时空预测提供了有效方法。"
   
   - title: "Structured Node Interaction Prompting for Expanding-Variate Spatial-Temporal Forecasting"
     year: 2026
-    maindescription: SIGKDD 2026 投稿中
+    maindescription: CCF-A类 投稿中
     description: "针对演化时空网络中节点集合变化带来的预测问题，提出结构化先验驱动的扩展节点预测框架 SNIP。 该方法利用周期序列 PCA、拓扑谱嵌入和时滞交互等结构先验，结合跨时间演化建模与图结构传播机制，实现结构化先验的时空依赖建模，提升了新节点冷启动条件下的预测精度与结构一致性。与同期SOTA方法（STEV，KDD 2025）相比, **SNIP取得精度提升的同时，GPU占用/训练时间减少至多92.5%与91.32%**，为可扩展的演化时空网络预测提供了新的建模思路。"
  
   - title: "TLAST: A Time-Lag Aware Spatial-Temporal Transformer for Traffic Flow Forecasting"
