@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Click the button on the right to get the PDF version. (updated in Mar. 2026)",
+          description: "Click the button on the right to get the PDF version. (updated in May. 2026)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-中文简历",
           title: "中文简历",
-          description: "可以点击右边按钮获取PDF版本。（2026年3月10日更新）",
+          description: "可以点击右边按钮获取PDF版本。（2026年5月1日更新）",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv_zh/";
@@ -393,16 +393,14 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+      },{id: "news-our-paper-st-rep-is-accepted-to-aaai-2025",
+          title: 'Our paper ST-ReP is accepted to AAAI 2025.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-tlast-is-accepted-to-tits",
+          title: 'Our paper TLAST is accepted to TITS.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-paper-timemode-is-accepted-to-icml-2026",
+          title: 'Our paper TimeMoDE is accepted to ICML 2026.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
