@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-中文简历",
           title: "中文简历",
-          description: "可以点击右边按钮获取PDF版本。（2026年5月1日更新）",
+          description: "可以点击右边按钮获取PDF版本。（2026年5月16日更新）",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv_zh/";
@@ -401,6 +401,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-timemode-is-accepted-to-icml-2026",
           title: 'Our paper TimeMoDE is accepted to ICML 2026.',
+          description: "",
+          section: "News",},{id: "news-i-am-recongized-as-a-gold-reviewer-by-icml-2026",
+          title: 'I am recongized as a Gold Reviewer by ICML 2026.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
